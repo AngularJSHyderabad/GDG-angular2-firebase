@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="demo.css">
+	<style>
+		#main {
+			float: left;
+			width: 350px;
+			text-align: center;
+			font-size: 34px;
+		}
+		
+		#sidebar {
+			float: right;
+			width: 350px;
+			text-align: center;
+			font-size: 35px;
+		}
+
+		#bored {
+			text-align: center;			
+		}
+
+		.heading {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body class="impress-not-supported">
+
+	<div class="fallback-message">
+		<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version
+			of this presentation.</p>
+		<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+	</div>
+	<div id="impress">
+
+		<div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+			<q>
+				Code lab: Angular 2 with Firebase
+				<br>
+				<img src="images/GDG.png" style="width: 300px;" alt="">
+				<br>
+				<img src="images/ng.png" style="width: 350px;" alt="">
+			</q>
+		</div>
+
+		<div class="step slide" data-x="0" data-y="-1500">
+			<q id="main">
+				<img src="http://devfest.gdghyd.org/wp-content/uploads/2015/06/Ravi-Kiran.jpg" alt="">
+				<br>
+				Ravi Kiran
+				<br>
+				Sr Developer, Innominds
+				Microsoft MVP
+				@sravi_kiran
+			</q>
+			<q id="sidebar">
+				<img src="http://devfest.gdghyd.org/wp-content/uploads/2015/06/V-Keerti-Kotaru.jpg" alt="">
+				<br>
+				V Keerti Kotaru
+				Principal Architect, CTS
+				Microsoft MVP
+				@vencki
+			</q>
+		</div>
+
+		<div class="step slide" data-x="1000" data-y="-1500">
+			<q>
+				<h2 class="heading">What is Angular 2?</h2>
+				<ul style="margin-left: 35px;">
+					<li>Web UI Framework from Google</li>
+					<li>Helps in building rich client applications</li>
+					<li>Embraces latest web technologies</li>
+				</ul>
+			</q>
+		</div>
+
+		<div class="step slide" data-x="2000" data-y="-1500">
+			<q>
+				<h2 class="heading">Core Concepts</h2>
+				<ul style="margin-left: 35px;">
+					<li>Components</li>
+					<li>Modules</li>
+					<li>Dependency Injection</li>
+					<li>Routing</li>
+				</ul>
+			</q>
+		</div>
+
+		<!--<div class="step" data-y="-400">
+			<span class="try">then you should try</span>
+			<h1>impress.js<sup>*</sup></h1>
+			<span class="footnote"><sup>*</sup> no rhyme intended</span>
+		</div>-->
+
+	</div>
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+
+</html>
